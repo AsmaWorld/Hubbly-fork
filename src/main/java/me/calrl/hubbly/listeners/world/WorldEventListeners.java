@@ -20,7 +20,6 @@ import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.enums.Permissions;
 import me.calrl.hubbly.enums.PluginKeys;
 import me.calrl.hubbly.functions.BossBarManager;
-import me.calrl.hubbly.managers.DisabledWorlds;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;

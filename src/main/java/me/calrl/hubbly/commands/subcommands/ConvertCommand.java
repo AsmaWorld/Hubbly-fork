@@ -4,10 +4,7 @@ import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.enums.Permissions;
 import me.calrl.hubbly.enums.PluginKeys;
 import me.calrl.hubbly.interfaces.SubCommand;
-import me.calrl.hubbly.inventory.InventoryBuilder;
-import me.calrl.hubbly.utils.ItemBuilder;
 import me.calrl.hubbly.utils.MessageBuilder;
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -17,11 +14,9 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.profile.PlayerProfile;
-import org.bukkit.profile.PlayerTextures;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.format.TextStyle;
 import java.util.*;
 import java.util.stream.Collectors;
 

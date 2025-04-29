@@ -18,23 +18,13 @@
 package me.calrl.hubbly.listeners.items;
 
 import me.calrl.hubbly.Hubbly;
-import me.calrl.hubbly.enums.Permissions;
 import me.calrl.hubbly.enums.PluginKeys;
-import me.calrl.hubbly.items.ConfigItem;
 import me.calrl.hubbly.action.ActionManager;
-import me.calrl.hubbly.managers.DebugMode;
-import me.calrl.hubbly.managers.DisabledWorlds;
-import me.calrl.hubbly.managers.ItemsManager;
-import me.calrl.hubbly.managers.cooldown.CooldownManager;
-import me.calrl.hubbly.managers.cooldown.CooldownType;
-import me.calrl.hubbly.utils.MessageBuilder;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.block.TileState;
-import org.bukkit.block.data.BlockData;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -46,7 +36,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Logger;
 

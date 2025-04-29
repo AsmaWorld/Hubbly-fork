@@ -2,8 +2,6 @@ package me.calrl.hubbly.action.actions;
 
 import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.action.Action;
-import me.calrl.hubbly.inventory.InventoryBuilder;
-import me.calrl.hubbly.managers.FileManager;
 import me.calrl.hubbly.utils.MessageBuilder;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

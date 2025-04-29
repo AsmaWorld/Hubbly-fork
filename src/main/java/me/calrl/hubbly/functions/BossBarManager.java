@@ -18,7 +18,6 @@ package me.calrl.hubbly.functions;
 
 
 import me.calrl.hubbly.Hubbly;
-import me.calrl.hubbly.managers.DisabledWorlds;
 import me.calrl.hubbly.utils.ChatUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

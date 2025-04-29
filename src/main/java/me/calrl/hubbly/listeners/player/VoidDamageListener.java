@@ -18,12 +18,10 @@
 package me.calrl.hubbly.listeners.player;
 
 import me.calrl.hubbly.Hubbly;
-import me.calrl.hubbly.managers.DisabledWorlds;
 import me.calrl.hubbly.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
-import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -32,9 +30,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
-
-import java.util.Objects;
-import java.util.logging.Logger;
 
 public class VoidDamageListener implements Listener {
 

@@ -21,7 +21,6 @@ import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
 import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.action.Action;
-import me.calrl.hubbly.managers.DebugMode;
 import org.bukkit.entity.Player;
 
 public class BungeeAction implements Action {

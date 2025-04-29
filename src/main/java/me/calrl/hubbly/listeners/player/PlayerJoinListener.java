@@ -21,8 +21,6 @@ import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.action.ActionManager;
 import me.calrl.hubbly.enums.Permissions;
 import me.calrl.hubbly.functions.BossBarManager;
-import me.calrl.hubbly.managers.DebugMode;
-import me.calrl.hubbly.managers.DisabledWorlds;
 import me.calrl.hubbly.utils.ChatUtils;
 import me.calrl.hubbly.utils.MessageBuilder;
 import me.calrl.hubbly.utils.update.UpdateUtil;

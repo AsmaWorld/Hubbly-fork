@@ -17,7 +17,6 @@
 package me.calrl.hubbly.listeners.player;
 
 import me.calrl.hubbly.Hubbly;
-import me.calrl.hubbly.managers.DisabledWorlds;
 import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

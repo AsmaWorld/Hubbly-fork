@@ -1,12 +1,8 @@
 package me.calrl.hubbly.utils;
 
-import me.arcaniax.hdb.api.HeadDatabaseAPI;
 import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.enums.PluginKeys;
-import me.calrl.hubbly.hooks.HeadDatabaseHook;
 import me.calrl.hubbly.hooks.HeadHook;
-import me.calrl.hubbly.hooks.Hook;
-import me.calrl.hubbly.managers.DebugMode;
 import me.calrl.hubbly.utils.xseries.XMaterial;
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
@@ -14,7 +10,6 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.enchantments.Enchantment;
-import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
@@ -23,7 +18,6 @@ import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
-import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.profile.PlayerProfile;
 import org.bukkit.profile.PlayerTextures;
 

@@ -19,16 +19,11 @@ package me.calrl.hubbly.items;
 import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.enums.PluginKeys;
 import me.calrl.hubbly.interfaces.CustomItem;
-import me.calrl.hubbly.managers.DebugMode;
-import me.calrl.hubbly.utils.ChatUtils;
 import me.calrl.hubbly.utils.ItemBuilder;
-import me.calrl.hubbly.utils.xseries.XMaterial;
-import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 
 public class AoteItem implements CustomItem {

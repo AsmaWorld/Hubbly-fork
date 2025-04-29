@@ -18,9 +18,7 @@ package me.calrl.hubbly.action.actions;
 
 import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.action.Action;
-import me.calrl.hubbly.managers.DebugMode;
 import me.calrl.hubbly.utils.ChatUtils;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 public class TitleAction implements Action {

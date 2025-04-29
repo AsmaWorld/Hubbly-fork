@@ -127,10 +127,7 @@ actions_on_join:
 #---------------------#
 
 cancel_events:
-  block_place: true
-  block_break: true
-  interact: true
-  damage: true
+
   weather: true
   item_drop: true
   item_pickup: true

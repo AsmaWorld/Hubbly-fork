@@ -20,7 +20,6 @@ package me.calrl.hubbly.action;
 import me.calrl.hubbly.Hubbly;
 import me.calrl.hubbly.action.actions.*;
 import me.calrl.hubbly.events.ActionEvent;
-import me.calrl.hubbly.managers.DisabledWorlds;
 import me.calrl.hubbly.utils.MessageBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
